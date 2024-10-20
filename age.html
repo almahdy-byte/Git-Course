@@ -1,0 +1,57 @@
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <link rel="stylesheet" href="normaliz.css">
+            <link rel="stylesheet" href="age.css">
+            <link rel="stylesheet" href="all.min.css">
+    </head>
+    <body>
+        <div class="back">
+        <div class="container">
+        <form id="ageForm" action="">
+            <div class="date_input">
+            <label for="day">Day:</label>
+            <br>
+            <input type="text" name="day" class="day" placeholder="DD">
+            <p  class="erorDay"></p>
+
+            </div>
+            <div class="date_input">
+            <label for="month">Month:</label>
+            <br>
+            <input type="text" class="month" name="month" placeholder="MM">
+            <p class="erorMonth" ></p>
+
+            </div>
+            <div class="date_input">
+            <label for="year">Year:</label>
+            <br>
+            <input type="text" class="year" name="year" placeholder="YYYY" >
+            <p class="erorYear"></p>
+            </div>
+            <button type="submit" style="display: none;"></button>
+        </form>
+        <div class="separator"><hr><span class="icon"><i class="fa-solid fa-angles-down" style="color: #ffffff;"></i></span></div>
+                    <div class="age">
+                        <p ><span class="y">--</span> Years</p>
+                        <p ><span class="m">--</span> Months</p>
+                        <p ><span class="d">--</span > Days</p>
+                    </div>
+        </div>
+        </div>
+        <script src="age.js"></script>
+        </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

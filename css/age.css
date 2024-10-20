@@ -1,0 +1,130 @@
+/* media  */
+@media (min-width:1024px) {
+.back .container .age p
+{
+font-size: 8vw;
+}}
+@media (min-width:768px)and (max-width:1023px) {
+    .back .container .age p {
+            font-size: 12vw;
+        }
+}
+@media (max-width:767px) {
+    .back .container .age p {
+            font-size: 14vw;
+        }
+        form 
+        {
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+*
+{
+    color: white;
+        margin: 0;
+}
+.back
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+        background-color: #151320;
+}
+form
+{
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+
+}
+
+input
+{
+    color: black;
+    border: 2px solid #595858;
+        width: 70%;
+        height: 45px;
+        border-radius: 10px;
+        margin: 5px 0 20px 0px;
+        text-align: start;
+        position: relative;
+}
+
+.back .container .age p
+{
+    font-family: cursive;
+        padding: 0;
+        width: 100%;
+}
+.back .container .age
+{
+        margin: 60px 0px 0 20px;
+        display: grid;
+        place-items:center ;
+}
+.separator
+{
+    position: relative;
+    top:25px;
+}
+hr
+{
+        width: 80%;
+            margin: 10px 10%;
+            padding: 0;
+            position: relative;
+}
+.separator .icon
+{
+    display: grid;
+        position: absolute;
+        right: 3%;
+        height: 65px;
+        width: 65px;
+        background-color: rgb(200, 0, 255);
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        place-content: center;
+        font-size: 30px;
+        transition: .3s;
+}
+.separator .icon:hover
+{
+font-size: 35px;
+    text-shadow: 1px 1px 6px black;
+
+}
+.back .container
+{
+    border: 7px solid #c800ff;
+        background:rgba(0, 0, 0, 0.288);
+            padding: 20px;
+        margin-top: 50px;
+        z-index: 1;
+        min-height: 70%;
+        border-radius: 15px 15px 30% 15px;
+        overflow: hidden;
+}
+::placeholder
+{
+        font-size: 30px;
+            font-weight: 600;
+            color: #605f5f57;
+            font-family: system-ui;
+            position: absolute;
+            top:0;
+}
+p span
+{
+    color: rgb(217, 2, 255);
+}
+.erorDay,
+.erorMonth,
+.erorYear
+{
+    padding: 0;color:red;   margin: -20px 0px 0px 4px;
+}
